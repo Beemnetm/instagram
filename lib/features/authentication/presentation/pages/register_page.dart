@@ -113,7 +113,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     obscureText: true,
                   ),
                   SizedBox(height: 15),
-                  MyButton(onTap: () {}, text: "Register"),
+                  MyButton(onTap: register, text: "Register"),
                   SizedBox(height: 15),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
